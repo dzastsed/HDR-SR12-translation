@@ -6,7 +6,11 @@ This is a project which main goal is to swap language from Japanese to English f
 Another goal of this repo is to make documented spreadsheets for easier translation to other languages (my goal is to make Lithuanian translation).
 
 TODO: how to gain shell access and swap language files
+
 TODO: how to use unpacking/packing scripts
+
 TODO: more detailed backstory
+
 TODO: investigate other cameras if they share the same lang files
+
 TODO: test this out on HDV/DV era camcorders
