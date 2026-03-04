@@ -14,3 +14,8 @@ TODO: more detailed backstory
 TODO: investigate other cameras if they share the same lang files
 
 TODO: test this out on HDV/DV era camcorders
+
+
+# Bonus clip
+<img width="4096" height="2304" alt="paveikslas" src="https://github.com/user-attachments/assets/2121dcce-6fde-4ba3-a118-efc8b53b641f" />
+> g symbol and press the OK
