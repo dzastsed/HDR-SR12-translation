@@ -5,7 +5,8 @@ This is a project which main goal is to swap language from Japanese to English f
 
 Another goal of this repo is to make documented spreadsheets for easier translation to other languages (my goal is to make Lithuanian translation).
 
-Here's a picture of a successfully language-swapped camera:
+Here's a picture of a successfully language-swapped camera:![IMG20260316211211 heic](https://github.com/user-attachments/assets/65e4d4ce-5f93-40d2-b1bf-c69db63218a9)
+
 
 TODO: how to gain shell access and swap language files
 
