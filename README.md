@@ -5,7 +5,11 @@ This is a project which main goal is to swap language from Japanese to English f
 
 Another goal of this repo is to make documented spreadsheets for easier translation to other languages (my goal is to make Lithuanian translation).
 
+Here's a picture of a successfully language-swapped camera:
+
 TODO: how to gain shell access and swap language files
+
+for those who are impatient: gain shell access with PMCA tools and `cp /usr/local/Fsk/applications/data/language/english.bin /usr/local/Fsk/applications/data/language/japanese.bin`
 
 TODO: how to use unpacking/packing scripts
 
@@ -13,7 +17,7 @@ TODO: more detailed backstory
 
 TODO: investigate other cameras if they share the same lang files
 
-TODO: test this out on HDV/DV era camcorders
+TODO: test this out on HDV/DV era camcorders (it doesn't)
 
 
 # Bonus clip

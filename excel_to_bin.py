@@ -450,7 +450,7 @@ def main() -> int:
     parser.add_argument(
         "--mode",
         choices=["addressed", "inplace", "repack"],
-        default="addressed",
+        default="repack",
         help="addressed: preserve StringOffsetHex pointers exactly; inplace: patch template in place; repack: rebuild pointers and string block.",
     )
     parser.add_argument(
@@ -530,19 +530,13 @@ def main() -> int:
         )
         warnings.extend(inplace_warnings)
     elif args.mode == "addressed":
-        fixed_size: Optional[int] = None
-        for candidate in [template, source_hint]:
-            if candidate and candidate.exists() and candidate.is_file():
-                fixed_size = candidate.stat().st_size
-                break
-
         rebuilt, warnings = build_addressed_binary(
             rows=rows,
             header_prefix=header_prefix,
             entry_size=args.entry_size,
             default_encoding=args.encoding,
             strict=args.strict,
-            fixed_size=fixed_size,
+            fixed_size=None,
         )
     else:
         encoded_rows, warnings = encode_text_rows(
