@@ -14,7 +14,7 @@ for those who are impatient: gain shell access with PMCA tools and `cp /usr/loca
 
 TODO: how to use unpacking/packing scripts
 
-TODO: more detailed backstory
+For backstory how I achieved this, read [this](https://dzastsed.github.io/sony-camcorder-englishification.html)
 
 TODO: investigate other cameras if they share the same lang files
 
